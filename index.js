@@ -2,8 +2,8 @@ const {addressToScript} = require("@nervosnetwork/ckb-sdk-utils");
 const {collectInputs, getCells, FEE, CKB_MIN_CAPACITY} = require("./utils");
 const CKB = require("@nervosnetwork/ckb-sdk-core").default;
 
-const CKB_INDEXER = "https://mainnet.ckbapp.dev/indexer";
-const CKB_NODE = "https://mainnet.ckbapp.dev/rpc";
+const CKB_INDEXER = "https://mainnet.ckb.dev/indexer";
+const CKB_NODE = "https://mainnet.ckb.dev/rpc";
 const COTA_TYPE = {
   codeHash: "0x1122a4fb54697cf2e6e3a96c9d80fd398a936559b90954c6e88eb7ba0cf652df",
   hashType: "type",
