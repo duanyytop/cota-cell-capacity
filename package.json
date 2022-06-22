@@ -1,0 +1,14 @@
+{
+  "name": "cota-cell-capacity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+
+  "dependencies": {
+    "@nervosnetwork/ckb-sdk-core": "^0.103.0",
+    "@nervosnetwork/ckb-sdk-utils": "^0.103.0",
+    "@nervosnetwork/ckb-types": "^0.103.0",
+    "camelcase-keys": "^7.0.2",
+    "axios": "^0.27.2"
+  }
+}
